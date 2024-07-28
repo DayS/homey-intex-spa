@@ -1,0 +1,10 @@
+{
+    "id": "intext_spa_mqtt",
+    "name": {
+        "en": "Intex Spa device"
+    },
+    "$extends": [
+        "defaults"
+    ],
+    "class": "other"
+}
