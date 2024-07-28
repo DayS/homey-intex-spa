@@ -1,7 +1,7 @@
 'use strict';
 
 const Homey = require('homey');
-const { commandTopicFromCapability, commandMapperFromCapability, capabilityFromMeasureTopic, measureMapperFromCapability } = require('../../lib/capabilities');
+const { commandTopicFromCapability, commandMapperFromCapability, capabilitiesFromMeasureTopic, measureMapperFromCapability } = require('../../lib/capabilities');
 
 class IntexDevice extends Homey.Device {
 
@@ -25,16 +25,17 @@ class IntexDevice extends Homey.Device {
   }
 
   onMessage(topic, message) {
-    const capability = capabilityFromMeasureTopic(topic);
-    if (!capability) {
+    const capabilities = capabilitiesFromMeasureTopic(topic);
+    if (!capabilities) {
       return;
     }
 
-    const mapper = measureMapperFromCapability(capability);
-
     this.log(`Received message from topic: ${topic}, value: ${message}`);
 
-    this.setCapabilityValue(capability, mapper(message)).catch(this.error);
+    for (const capability of capabilities) {
+      const mapper = measureMapperFromCapability(capability);
+      this.setCapabilityValue(capability, mapper(message)).catch(this.error);
+    }
   }
 }
 

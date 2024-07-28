@@ -41,8 +41,16 @@
         "filter",
         "bubble",
         "tempAct",
-        "tempSet"
+        "measure_temperature",
+        "target_temperature"
       ],
+      "capabilitiesOptions": {
+        "target_temperature": {
+          "min": 20,
+          "max": 40,
+          "step": 1
+        }
+      },
       "icon": "/drivers/intext_spa/assets/icon.svg",
       "class": "other",
       "pair": [
@@ -127,22 +135,6 @@
         "en": "°C"
       },
       "icon": "assets/icons/capabilities/tempAct.svg"
-    },
-    "tempSet": {
-      "type": "number",
-      "title": {
-        "en": "Set temperature"
-      },
-      "getable": true,
-      "setable": true,
-      "uiComponent": "slider",
-      "uiQuickAction": false,
-      "units": {
-        "en": "°C"
-      },
-      "min": 20,
-      "max": 40,
-      "step": 1
     }
   }
 }
