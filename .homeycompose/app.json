@@ -1,0 +1,28 @@
+{
+  "id": "fr.dvilleneuve.intex_spa",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Intex Spa MQTT"
+  },
+  "description": {
+    "en": "Adds support for Intex Spa throught MQTT protocol"
+  },
+  "category": [
+    "appliances"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Damien Villeneuve",
+    "email": "contact@dvilleneuve.fr"
+  }
+}
