@@ -258,8 +258,8 @@
   "drivers": [
     {
       "images": {
-        "large": "/drivers/intext_spa/assets/images/large.png",
-        "small": "/drivers/intext_spa/assets/images/small.png"
+        "large": "/drivers/intex_spa/assets/images/large.png",
+        "small": "/drivers/intex_spa/assets/images/small.png"
       },
       "capabilities": [
         "power",
@@ -277,7 +277,7 @@
           "step": 1
         }
       },
-      "icon": "/drivers/intext_spa/assets/icon.svg",
+      "icon": "/drivers/intex_spa/assets/icon.svg",
       "class": "other",
       "pair": [
         {
@@ -298,7 +298,7 @@
           "id": "create_devices"
         }
       ],
-      "id": "intext_spa",
+      "id": "intex_spa",
       "name": {
         "en": "Intex Spa device"
       }

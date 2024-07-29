@@ -2,7 +2,7 @@
 
 const Homey = require('homey');
 
-class IntextSpaApp extends Homey.App {
+class IntexSpaApp extends Homey.App {
 
   discoveredDevice = undefined;
   mqttTopicRoot = 'SpaTiTan';
@@ -128,4 +128,4 @@ class IntextSpaApp extends Homey.App {
   }
 }
 
-module.exports = IntextSpaApp;
+module.exports = IntexSpaApp;
