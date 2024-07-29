@@ -90,6 +90,17 @@ class IntexDevice extends Homey.Device {
 
       this.values[capability] = value;
     }
+
+    this.estimateEnergyConsumption();
+  }
+
+  estimateEnergyConsumption() {
+    let energy = 0;
+    energy += this.getCapabilityValue('bubble') ? 800 : 0;
+    energy += this.getCapabilityValue('heater') ? 2200 : 0;
+    energy += this.getCapabilityValue('filter') ? 50 : 0;
+
+    this.setCapabilityValue('measure_power', energy).catch(this.error);
   }
 }
 

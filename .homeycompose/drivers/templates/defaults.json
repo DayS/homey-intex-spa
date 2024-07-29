@@ -10,14 +10,18 @@
         "bubble",
         "tempAct",
         "measure_temperature",
-        "target_temperature"
+        "target_temperature",
+        "measure_power"
     ],
     "capabilitiesOptions": {
-      "target_temperature": {
-        "min": 20,
-        "max": 40,
-        "step": 1
-      }
+        "target_temperature": {
+            "min": 20,
+            "max": 40,
+            "step": 1
+        },
+        "measure_power": {
+            "approximated": true
+        }
     },
     "icon": "{{driverAssetsPath}}/icon.svg",
     "class": "other",
