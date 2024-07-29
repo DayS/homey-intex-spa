@@ -17,9 +17,10 @@ class IntexDevice extends Homey.Device {
       this.registerCapabilityListener(capability, async (value) => {
         const topic = commandTopicFromCapability(capability);
         const mapper = commandMapperFromCapability(capability);
+        const mqttValue = mapper(value);
 
-        this.log(`Sending message to topic: ${topic}, value: ${mapper(value)}`);
-        await this.driver.sendMessage(topic, mapper(value));
+        this.log(`Sending message to topic: ${topic}, value: ${mqttValue}`);
+        await this.driver.sendMessage(topic, mqttValue);
       });
     }
   }
@@ -34,7 +35,8 @@ class IntexDevice extends Homey.Device {
 
     for (const capability of capabilities) {
       const mapper = measureMapperFromCapability(capability);
-      this.setCapabilityValue(capability, mapper(message)).catch(this.error);
+      const value = mapper(message);
+      this.setCapabilityValue(capability, value).catch(this.error);
     }
   }
 }

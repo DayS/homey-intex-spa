@@ -48,7 +48,7 @@ class IntextSpaApp extends Homey.App {
   }
 
   onMessage(fullTopic, message) {
-    this.log("<< " + fullTopic + ": " + JSON.stringify(message, null, 2));
+    this.log(`<< ${fullTopic}: ${JSON.stringify(message, null, 2)}`);
 
     this.lastMqttMessage = Date.now();
 
@@ -68,7 +68,7 @@ class IntextSpaApp extends Homey.App {
   sendMessage(topic, payload) {
     const fullTopic = topic.startsWith(this.mqttTopicRoot + '/') ? topic : `${this.mqttTopicRoot}/${topic}`
 
-    this.log(`>> ${fullTopic} <= ${payload}`);
+    this.log(`>> ${fullTopic}: ${payload}`);
 
     if (!this.clientAvailable)
       return;
