@@ -1,0 +1,35 @@
+{
+    "id": "filter_action",
+    "title": {
+        "en": "Change filter state"
+    },
+    "titleFormatted": {
+        "en": "Change filter state to [[state]]"
+    },
+    "args": [
+        {
+            "name": "state",
+            "type": "dropdown",
+            "values": [
+                {
+                    "id": "on",
+                    "label": {
+                        "en": "On"
+                    }
+                },
+                {
+                    "id": "off",
+                    "label": {
+                        "en": "Off"
+                    }
+                },
+                {
+                    "id": "toggle",
+                    "label": {
+                        "en": "Toggle"
+                    }
+                }
+            ]
+        }
+    ]
+}

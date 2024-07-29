@@ -27,6 +27,27 @@ class IntexDevice extends Homey.Device {
         await this.driver.sendMessage(topic, mqttValue);
       });
     }
+
+    await this.registerSwitchAction('bubble_action', 'bubble');
+    await this.registerSwitchAction('filter_action', 'filter');
+    await this.registerSwitchAction('heater_action', 'heater');
+    await this.registerSwitchAction('power_action', 'power');
+  }
+
+  async registerSwitchAction(actionId, capability) {
+    this.homey.flow.getActionCard(actionId).registerRunListener(async (args, state) => {
+      const topic = commandTopicFromCapability(capability);
+
+      let mqttValue = null;
+      if (args.state === 'toggle') {
+        mqttValue = this.getCapabilityValue(capability) ? 'off' : 'on';
+      } else {
+        mqttValue = args.state;
+      }
+
+      this.log(`Sending message to topic: ${topic}, value: ${mqttValue} <- Capability: ${capability}`);
+      await this.driver.sendMessage(topic, mqttValue);
+    });
   }
 
   async onMessage(topic, message) {

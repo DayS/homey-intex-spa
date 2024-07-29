@@ -1,0 +1,35 @@
+{
+    "id": "power_action",
+    "title": {
+        "en": "Change power state"
+    },
+    "titleFormatted": {
+        "en": "Change power state to [[state]]"
+    },
+    "args": [
+        {
+            "name": "state",
+            "type": "dropdown",
+            "values": [
+                {
+                    "id": "on",
+                    "label": {
+                        "en": "On"
+                    }
+                },
+                {
+                    "id": "off",
+                    "label": {
+                        "en": "Off"
+                    }
+                },
+                {
+                    "id": "toggle",
+                    "label": {
+                        "en": "Toggle"
+                    }
+                }
+            ]
+        }
+    ]
+}

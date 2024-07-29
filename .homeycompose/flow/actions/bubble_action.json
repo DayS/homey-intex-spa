@@ -1,0 +1,35 @@
+{
+    "id": "bubble_action",
+    "title": {
+        "en": "Change bubble state"
+    },
+    "titleFormatted": {
+        "en": "Change bubble state to [[state]]"
+    },
+    "args": [
+        {
+            "name": "state",
+            "type": "dropdown",
+            "values": [
+                {
+                    "id": "on",
+                    "label": {
+                        "en": "On"
+                    }
+                },
+                {
+                    "id": "off",
+                    "label": {
+                        "en": "Off"
+                    }
+                },
+                {
+                    "id": "toggle",
+                    "label": {
+                        "en": "Toggle"
+                    }
+                }
+            ]
+        }
+    ]
+}
