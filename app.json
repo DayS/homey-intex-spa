@@ -17,6 +17,14 @@
   "category": [
     "appliances"
   ],
+  "tags": {
+    "en": [
+      "intex",
+      "spa",
+      "jacuzzi",
+      "mqtt"
+    ]
+  },
   "permissions": [
     "homey:app:nl.scanno.mqtt"
   ],
@@ -24,6 +32,10 @@
     "small": "/assets/images/small.png",
     "large": "/assets/images/large.png",
     "xlarge": "/assets/images/xlarge.png"
+  },
+  "source": "https://github.com/DayS/homey-intex-spa",
+  "bugs": {
+    "url": "https://github.com/DayS/homey-intex-spa/issues"
   },
   "author": {
     "name": "Damien Villeneuve",
