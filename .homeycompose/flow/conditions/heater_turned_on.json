@@ -1,0 +1,16 @@
+{
+    "id": "heater_turned_on",
+    "title": {
+        "en": "Heater state is !{{on|off}}"
+    },
+    "titleFormatted": {
+        "en": "Heater state is !{{on|off}}"
+    },
+    "args": [
+        {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+        }
+    ]
+}

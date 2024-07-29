@@ -28,13 +28,26 @@ class IntexDevice extends Homey.Device {
       });
     }
 
-    await this.registerSwitchAction('bubble_action', 'bubble');
-    await this.registerSwitchAction('filter_action', 'filter');
-    await this.registerSwitchAction('heater_action', 'heater');
-    await this.registerSwitchAction('power_action', 'power');
+    this.registerSwitchAction('bubble_action', 'bubble');
+    this.registerSwitchAction('filter_action', 'filter');
+    this.registerSwitchAction('heater_action', 'heater');
+    this.registerSwitchAction('power_action', 'power');
+
+    this.homey.flow.getConditionCard('bubble_turned_on').registerRunListener(async (args, state) => {
+      return args.device.getCapabilityValue('bubble');
+    });
+    this.homey.flow.getConditionCard('filter_turned_on').registerRunListener(async (args, state) => {
+      return args.device.getCapabilityValue('filter');
+    });
+    this.homey.flow.getConditionCard('heater_turned_on').registerRunListener(async (args, state) => {
+      return args.device.getCapabilityValue('heater');
+    });
+    this.homey.flow.getConditionCard('power_turned_on').registerRunListener(async (args, state) => {
+      return args.device.getCapabilityValue('power');
+    });
   }
 
-  async registerSwitchAction(actionId, capability) {
+  registerSwitchAction(actionId, capability) {
     this.homey.flow.getActionCard(actionId).registerRunListener(async (args, state) => {
       const topic = commandTopicFromCapability(capability);
 
