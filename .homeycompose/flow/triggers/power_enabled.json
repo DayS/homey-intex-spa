@@ -1,7 +1,8 @@
 {
     "id": "power_enabled",
     "title": {
-        "en": "Power was enabled"
+        "en": "Power was enabled",
+        "fr": "L'alimentation est activée"
     },
     "args": [
         {

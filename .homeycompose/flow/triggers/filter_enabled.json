@@ -1,7 +1,8 @@
 {
     "id": "filter_enabled",
     "title": {
-        "en": "Filter was enabled"
+        "en": "Filter was enabled",
+        "fr": "La filtration est activée"
     },
     "args": [
         {

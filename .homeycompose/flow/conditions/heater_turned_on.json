@@ -1,10 +1,12 @@
 {
     "id": "heater_turned_on",
     "title": {
-        "en": "Heater state is !{{on|off}}"
+        "en": "Heater state is !{{on|off}}",
+        "fr": "Le chauffage est !{{allumé|éteint}}"
     },
     "titleFormatted": {
-        "en": "Heater state is !{{on|off}}"
+        "en": "Heater state is !{{on|off}}",
+        "fr": "Le chauffage est !{{allumé|éteint}}"
     },
     "args": [
         {

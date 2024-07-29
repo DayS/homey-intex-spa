@@ -1,7 +1,8 @@
 {
     "type": "number",
     "title": {
-        "en": "Current temperature"
+        "en": "Current temperature",
+        "fr": "Température actuelle"
     },
     "getable": true,
     "setable": false,

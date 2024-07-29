@@ -1,7 +1,8 @@
 {
     "id": "heater_enabled",
     "title": {
-        "en": "Heater was enabled"
+        "en": "Heater was enabled",
+        "fr": "Le chauffage est activé"
     },
     "args": [
         {

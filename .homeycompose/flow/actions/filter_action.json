@@ -1,10 +1,12 @@
 {
     "id": "filter_action",
     "title": {
-        "en": "Change filter state"
+        "en": "Change filter state",
+        "fr": "Changer l'état de la filtration"
     },
     "titleFormatted": {
-        "en": "Change filter state to [[state]]"
+        "en": "Change filter state to [[state]]",
+        "fr": "Changer l'état de la filtration en [[state]]"
     },
     "args": [
         {
@@ -19,19 +21,22 @@
                 {
                     "id": "on",
                     "label": {
-                        "en": "On"
+                        "en": "On",
+                        "fr": "Allumé"
                     }
                 },
                 {
                     "id": "off",
                     "label": {
-                        "en": "Off"
+                        "en": "Off",
+                        "fr": "Éteint"
                     }
                 },
                 {
                     "id": "toggle",
                     "label": {
-                        "en": "Toggle"
+                        "en": "Toggle",
+                        "fr": "Inverser"
                     }
                 }
             ]

@@ -1,10 +1,12 @@
 {
     "id": "filter_turned_on",
     "title": {
-        "en": "Filter state is !{{on|off}}"
+        "en": "Filter state is !{{on|off}}",
+        "fr": "La filtration est !{{allumée|éteinte}}"
     },
     "titleFormatted": {
-        "en": "Filter state is !{{on|off}}"
+        "en": "Filter state is !{{on|off}}",
+        "fr": "La filtration est !{{allumée|éteinte}}"
     },
     "args": [
         {

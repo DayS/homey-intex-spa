@@ -1,7 +1,8 @@
 {
     "id": "bubble_enabled",
     "title": {
-        "en": "Bubble was enabled"
+        "en": "Bubble was enabled",
+        "fr": "Les bulles sont activées"
     },
     "args": [
         {

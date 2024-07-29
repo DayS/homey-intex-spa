@@ -1,7 +1,8 @@
 {
     "type": "boolean",
     "title": {
-        "en": "Bubble"
+        "en": "Bubble",
+        "fr": "Bulles"
     },
     "getable": true,
     "setable": true,

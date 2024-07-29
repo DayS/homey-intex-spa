@@ -1,10 +1,12 @@
 {
     "id": "power_action",
     "title": {
-        "en": "Change power state"
+        "en": "Change power state",
+        "fr": "Changer l'état de l'alimentation"
     },
     "titleFormatted": {
-        "en": "Change power state to [[state]]"
+        "en": "Change power state to [[state]]",
+        "fr": "Changer l'état de l'alimentation en [[state]]"
     },
     "args": [
         {
@@ -19,19 +21,22 @@
                 {
                     "id": "on",
                     "label": {
-                        "en": "On"
+                        "en": "On",
+                        "fr": "Allumé"
                     }
                 },
                 {
                     "id": "off",
                     "label": {
-                        "en": "Off"
+                        "en": "Off",
+                        "fr": "Éteint"
                     }
                 },
                 {
                     "id": "toggle",
                     "label": {
-                        "en": "Toggle"
+                        "en": "Toggle",
+                        "fr": "Inverser"
                     }
                 }
             ]

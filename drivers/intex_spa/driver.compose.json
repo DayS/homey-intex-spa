@@ -1,7 +1,8 @@
 {
     "id": "intex_spa_mqtt",
     "name": {
-        "en": "Intex Spa device"
+        "en": "Intex Spa device",
+        "fr": "Appareil Intex Spa"
     },
     "$extends": [
         "defaults"

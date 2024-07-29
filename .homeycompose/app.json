@@ -8,16 +8,24 @@
     "local"
   ],
   "name": {
-    "en": "Intex Spa MQTT"
+    "en": "Intex Spa MQTT",
+    "fr": " Spa Intex MQTT"
   },
   "description": {
-    "en": "Adds support for Intex Spa throught MQTT protocol"
+    "en": "Adds support for Intex Spa throught MQTT protocol",
+    "fr": "Ajoute le support des Spas Intex via le protocole MQTT"
   },
   "category": [
     "appliances"
   ],
   "tags": {
     "en": [
+      "intex",
+      "spa",
+      "hot tub",
+      "mqtt"
+    ],
+    "fr": [
       "intex",
       "spa",
       "jacuzzi",

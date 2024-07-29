@@ -1,10 +1,12 @@
 {
     "id": "power_turned_on",
     "title": {
-        "en": "Power state is !{{on|off}}"
+        "en": "Power state is !{{on|off}}",
+        "fr": "L'alimentation est !{{allumée|éteinte}}"
     },
     "titleFormatted": {
-        "en": "Power state is !{{on|off}}"
+        "en": "Power state is !{{on|off}}",
+        "fr": "L'alimentation est !{{allumée|éteinte}}"
     },
     "args": [
         {

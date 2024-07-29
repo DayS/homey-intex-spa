@@ -1,7 +1,8 @@
 {
     "id": "heater_disabled",
     "title": {
-        "en": "Heater was disabled"
+        "en": "Heater was disabled",
+        "fr": "Le chauffage est désactivé"
     },
     "args": [
         {

@@ -9,16 +9,24 @@
     "local"
   ],
   "name": {
-    "en": "Intex Spa MQTT"
+    "en": "Intex Spa MQTT",
+    "fr": " Spa Intex MQTT"
   },
   "description": {
-    "en": "Adds support for Intex Spa throught MQTT protocol"
+    "en": "Adds support for Intex Spa throught MQTT protocol",
+    "fr": "Ajoute le support des Spas Intex via le protocole MQTT"
   },
   "category": [
     "appliances"
   ],
   "tags": {
     "en": [
+      "intex",
+      "spa",
+      "hot tub",
+      "mqtt"
+    ],
+    "fr": [
       "intex",
       "spa",
       "jacuzzi",
@@ -46,7 +54,8 @@
       {
         "id": "bubble_disabled",
         "title": {
-          "en": "Bubble was disabled"
+          "en": "Bubble was disabled",
+          "fr": "Les bulles sont désactivées"
         },
         "args": [
           {
@@ -59,7 +68,8 @@
       {
         "id": "bubble_enabled",
         "title": {
-          "en": "Bubble was enabled"
+          "en": "Bubble was enabled",
+          "fr": "Les bulles sont activées"
         },
         "args": [
           {
@@ -72,7 +82,8 @@
       {
         "id": "filter_disabled",
         "title": {
-          "en": "Filter was disabled"
+          "en": "Filter was disabled",
+          "fr": "La filtration est désactivée"
         },
         "args": [
           {
@@ -85,7 +96,8 @@
       {
         "id": "filter_enabled",
         "title": {
-          "en": "Filter was enabled"
+          "en": "Filter was enabled",
+          "fr": "La filtration est activée"
         },
         "args": [
           {
@@ -98,7 +110,8 @@
       {
         "id": "heater_disabled",
         "title": {
-          "en": "Heater was disabled"
+          "en": "Heater was disabled",
+          "fr": "Le chauffage est désactivé"
         },
         "args": [
           {
@@ -111,7 +124,8 @@
       {
         "id": "heater_enabled",
         "title": {
-          "en": "Heater was enabled"
+          "en": "Heater was enabled",
+          "fr": "Le chauffage est activé"
         },
         "args": [
           {
@@ -124,7 +138,8 @@
       {
         "id": "power_disabled",
         "title": {
-          "en": "Power was disabled"
+          "en": "Power was disabled",
+          "fr": "L'alimentation est désactivée"
         },
         "args": [
           {
@@ -137,7 +152,8 @@
       {
         "id": "power_enabled",
         "title": {
-          "en": "Power was enabled"
+          "en": "Power was enabled",
+          "fr": "L'alimentation est activée"
         },
         "args": [
           {
@@ -152,10 +168,12 @@
       {
         "id": "bubble_turned_on",
         "title": {
-          "en": "Bubble state is !{{on|off}}"
+          "en": "Bubble state is !{{on|off}}",
+          "fr": "Les bulles sont !{{allumées|éteintes}}"
         },
         "titleFormatted": {
-          "en": "Bubble state is !{{on|off}}"
+          "en": "Bubble state is !{{on|off}}",
+          "fr": "Les bulles sont !{{allumées|éteintes}}"
         },
         "args": [
           {
@@ -168,10 +186,12 @@
       {
         "id": "filter_turned_on",
         "title": {
-          "en": "Filter state is !{{on|off}}"
+          "en": "Filter state is !{{on|off}}",
+          "fr": "La filtration est !{{allumée|éteinte}}"
         },
         "titleFormatted": {
-          "en": "Filter state is !{{on|off}}"
+          "en": "Filter state is !{{on|off}}",
+          "fr": "La filtration est !{{allumée|éteinte}}"
         },
         "args": [
           {
@@ -184,10 +204,12 @@
       {
         "id": "heater_turned_on",
         "title": {
-          "en": "Heater state is !{{on|off}}"
+          "en": "Heater state is !{{on|off}}",
+          "fr": "Le chauffage est !{{allumé|éteint}}"
         },
         "titleFormatted": {
-          "en": "Heater state is !{{on|off}}"
+          "en": "Heater state is !{{on|off}}",
+          "fr": "Le chauffage est !{{allumé|éteint}}"
         },
         "args": [
           {
@@ -200,10 +222,12 @@
       {
         "id": "power_turned_on",
         "title": {
-          "en": "Power state is !{{on|off}}"
+          "en": "Power state is !{{on|off}}",
+          "fr": "L'alimentation est !{{allumée|éteinte}}"
         },
         "titleFormatted": {
-          "en": "Power state is !{{on|off}}"
+          "en": "Power state is !{{on|off}}",
+          "fr": "L'alimentation est !{{allumée|éteinte}}"
         },
         "args": [
           {
@@ -218,10 +242,12 @@
       {
         "id": "bubble_action",
         "title": {
-          "en": "Change bubble state"
+          "en": "Change bubble state",
+          "fr": "Changer l'état des bulles"
         },
         "titleFormatted": {
-          "en": "Change bubble state to [[state]]"
+          "en": "Change bubble state to [[state]]",
+          "fr": "Changer l'état des bulles en [[state]]"
         },
         "args": [
           {
@@ -236,19 +262,22 @@
               {
                 "id": "on",
                 "label": {
-                  "en": "On"
+                  "en": "On",
+                  "fr": "Allumé"
                 }
               },
               {
                 "id": "off",
                 "label": {
-                  "en": "Off"
+                  "en": "Off",
+                  "fr": "Éteint"
                 }
               },
               {
                 "id": "toggle",
                 "label": {
-                  "en": "Toggle"
+                  "en": "Toggle",
+                  "fr": "Inverser"
                 }
               }
             ]
@@ -258,10 +287,12 @@
       {
         "id": "filter_action",
         "title": {
-          "en": "Change filter state"
+          "en": "Change filter state",
+          "fr": "Changer l'état de la filtration"
         },
         "titleFormatted": {
-          "en": "Change filter state to [[state]]"
+          "en": "Change filter state to [[state]]",
+          "fr": "Changer l'état de la filtration en [[state]]"
         },
         "args": [
           {
@@ -276,19 +307,22 @@
               {
                 "id": "on",
                 "label": {
-                  "en": "On"
+                  "en": "On",
+                  "fr": "Allumé"
                 }
               },
               {
                 "id": "off",
                 "label": {
-                  "en": "Off"
+                  "en": "Off",
+                  "fr": "Éteint"
                 }
               },
               {
                 "id": "toggle",
                 "label": {
-                  "en": "Toggle"
+                  "en": "Toggle",
+                  "fr": "Inverser"
                 }
               }
             ]
@@ -298,10 +332,12 @@
       {
         "id": "heater_action",
         "title": {
-          "en": "Change heater state"
+          "en": "Change heater state",
+          "fr": "Changer l'état du chauffage"
         },
         "titleFormatted": {
-          "en": "Change heater state to [[state]]"
+          "en": "Change heater state to [[state]]",
+          "fr": "Changer l'état du chauffage en [[state]]"
         },
         "args": [
           {
@@ -316,19 +352,22 @@
               {
                 "id": "on",
                 "label": {
-                  "en": "On"
+                  "en": "On",
+                  "fr": "Allumé"
                 }
               },
               {
                 "id": "off",
                 "label": {
-                  "en": "Off"
+                  "en": "Off",
+                  "fr": "Éteint"
                 }
               },
               {
                 "id": "toggle",
                 "label": {
-                  "en": "Toggle"
+                  "en": "Toggle",
+                  "fr": "Inverser"
                 }
               }
             ]
@@ -338,10 +377,12 @@
       {
         "id": "power_action",
         "title": {
-          "en": "Change power state"
+          "en": "Change power state",
+          "fr": "Changer l'état de l'alimentation"
         },
         "titleFormatted": {
-          "en": "Change power state to [[state]]"
+          "en": "Change power state to [[state]]",
+          "fr": "Changer l'état de l'alimentation en [[state]]"
         },
         "args": [
           {
@@ -356,19 +397,22 @@
               {
                 "id": "on",
                 "label": {
-                  "en": "On"
+                  "en": "On",
+                  "fr": "Allumé"
                 }
               },
               {
                 "id": "off",
                 "label": {
-                  "en": "Off"
+                  "en": "Off",
+                  "fr": "Éteint"
                 }
               },
               {
                 "id": "toggle",
                 "label": {
-                  "en": "Toggle"
+                  "en": "Toggle",
+                  "fr": "Inverser"
                 }
               }
             ]
@@ -426,7 +470,8 @@
       ],
       "id": "intex_spa",
       "name": {
-        "en": "Intex Spa device"
+        "en": "Intex Spa device",
+        "fr": "Appareil Intex Spa"
       }
     }
   ],
@@ -434,7 +479,8 @@
     "bubble": {
       "type": "boolean",
       "title": {
-        "en": "Bubble"
+        "en": "Bubble",
+        "fr": "Bulles"
       },
       "getable": true,
       "setable": true,
@@ -445,7 +491,8 @@
     "filter": {
       "type": "boolean",
       "title": {
-        "en": "Filter"
+        "en": "Filter",
+        "fr": "Filtration"
       },
       "getable": true,
       "setable": true,
@@ -456,7 +503,8 @@
     "heater": {
       "type": "boolean",
       "title": {
-        "en": "Heater"
+        "en": "Heater",
+        "fr": "Chauffage"
       },
       "getable": true,
       "setable": true,
@@ -467,7 +515,8 @@
     "power": {
       "type": "boolean",
       "title": {
-        "en": "Powered"
+        "en": "Powered",
+        "fr": "Alimentation"
       },
       "getable": true,
       "setable": true,
@@ -478,7 +527,8 @@
     "tempAct": {
       "type": "number",
       "title": {
-        "en": "Current temperature"
+        "en": "Current temperature",
+        "fr": "Température actuelle"
       },
       "getable": true,
       "setable": false,

@@ -1,10 +1,12 @@
 {
     "id": "bubble_turned_on",
     "title": {
-        "en": "Bubble state is !{{on|off}}"
+        "en": "Bubble state is !{{on|off}}",
+        "fr": "Les bulles sont !{{allumées|éteintes}}"
     },
     "titleFormatted": {
-        "en": "Bubble state is !{{on|off}}"
+        "en": "Bubble state is !{{on|off}}",
+        "fr": "Les bulles sont !{{allumées|éteintes}}"
     },
     "args": [
         {
