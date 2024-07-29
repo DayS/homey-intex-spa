@@ -2,5 +2,12 @@
     "id": "bubble_disabled",
     "title": {
         "en": "Bubble was disabled"
-    }
+    },
+    "args": [
+        {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+        }
+    ]
 }

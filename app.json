@@ -44,82 +44,106 @@
   "flow": {
     "triggers": [
       {
-        "id": "actual_temperature_changed",
-        "title": {
-          "en": "Actual temperature changed"
-        },
-        "tokens": [
-          {
-            "name": "temperature",
-            "type": "number",
-            "title": {
-              "en": "Actual temperature (°C)"
-            },
-            "example": 38
-          }
-        ]
-      },
-      {
         "id": "bubble_disabled",
         "title": {
           "en": "Bubble was disabled"
-        }
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+          }
+        ]
       },
       {
         "id": "bubble_enabled",
         "title": {
           "en": "Bubble was enabled"
-        }
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+          }
+        ]
       },
       {
         "id": "filter_disabled",
         "title": {
           "en": "Filter was disabled"
-        }
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+          }
+        ]
       },
       {
         "id": "filter_enabled",
         "title": {
           "en": "Filter was enabled"
-        }
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+          }
+        ]
       },
       {
         "id": "heater_disabled",
         "title": {
           "en": "Heater was disabled"
-        }
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+          }
+        ]
       },
       {
         "id": "heater_enabled",
         "title": {
           "en": "Heater was enabled"
-        }
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+          }
+        ]
       },
       {
         "id": "power_disabled",
         "title": {
           "en": "Power was disabled"
-        }
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+          }
+        ]
       },
       {
         "id": "power_enabled",
         "title": {
           "en": "Power was enabled"
-        }
-      },
-      {
-        "id": "target_temperature_changed",
-        "title": {
-          "en": "Target temperature changed"
         },
-        "tokens": [
+        "args": [
           {
-            "name": "temperature",
-            "type": "number",
-            "title": {
-              "en": "Target temperature (°C)"
-            },
-            "example": 38
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
           }
         ]
       }
@@ -201,6 +225,11 @@
         },
         "args": [
           {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+          },
+          {
             "name": "state",
             "type": "dropdown",
             "values": [
@@ -235,6 +264,11 @@
           "en": "Change filter state to [[state]]"
         },
         "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+          },
           {
             "name": "state",
             "type": "dropdown",
@@ -271,6 +305,11 @@
         },
         "args": [
           {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+          },
+          {
             "name": "state",
             "type": "dropdown",
             "values": [
@@ -305,6 +344,11 @@
           "en": "Change power state to [[state]]"
         },
         "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+          },
           {
             "name": "state",
             "type": "dropdown",

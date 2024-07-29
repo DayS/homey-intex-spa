@@ -2,5 +2,12 @@
     "id": "filter_disabled",
     "title": {
         "en": "Filter was disabled"
-    }
+    },
+    "args": [
+        {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+        }
+    ]
 }

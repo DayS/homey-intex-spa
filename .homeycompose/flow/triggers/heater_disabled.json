@@ -2,5 +2,12 @@
     "id": "heater_disabled",
     "title": {
         "en": "Heater was disabled"
-    }
+    },
+    "args": [
+        {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+        }
+    ]
 }
