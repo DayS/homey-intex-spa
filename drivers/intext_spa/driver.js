@@ -80,7 +80,7 @@ class IntexDriver extends Homey.Driver {
   onMessage(topic, message) {
     let devices = this.getDevices();
     for (const device of devices) {
-      device.onMessage(topic, message);
+      device.onMessage(topic, message).catch(this.error);
     }
   }
 

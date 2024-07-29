@@ -1,0 +1,16 @@
+{
+    "id": "actual_temperature_changed",
+    "title": {
+        "en": "Actual temperature changed"
+    },
+    "tokens": [
+        {
+            "name": "temperature",
+            "type": "number",
+            "title": {
+                "en": "Actual temperature (°C)"
+            },
+            "example": 38
+        }
+    ]
+}

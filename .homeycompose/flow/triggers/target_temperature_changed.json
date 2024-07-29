@@ -1,0 +1,16 @@
+{
+    "id": "target_temperature_changed",
+    "title": {
+        "en": "Target temperature changed"
+    },
+    "tokens": [
+        {
+            "name": "temperature",
+            "type": "number",
+            "title": {
+                "en": "Target temperature (°C)"
+            },
+            "example": 38
+        }
+    ]
+}

@@ -29,6 +29,90 @@
     "name": "Damien Villeneuve",
     "email": "contact@dvilleneuve.fr"
   },
+  "flow": {
+    "triggers": [
+      {
+        "id": "actual_temperature_changed",
+        "title": {
+          "en": "Actual temperature changed"
+        },
+        "tokens": [
+          {
+            "name": "temperature",
+            "type": "number",
+            "title": {
+              "en": "Actual temperature (°C)"
+            },
+            "example": 38
+          }
+        ]
+      },
+      {
+        "id": "bubble_disabled",
+        "title": {
+          "en": "Bubble was disabled"
+        }
+      },
+      {
+        "id": "bubble_enabled",
+        "title": {
+          "en": "Bubble was enabled"
+        }
+      },
+      {
+        "id": "filter_disabled",
+        "title": {
+          "en": "Filter was disabled"
+        }
+      },
+      {
+        "id": "filter_enabled",
+        "title": {
+          "en": "Filter was enabled"
+        }
+      },
+      {
+        "id": "heater_disabled",
+        "title": {
+          "en": "Heater was disabled"
+        }
+      },
+      {
+        "id": "heater_enabled",
+        "title": {
+          "en": "Heater was enabled"
+        }
+      },
+      {
+        "id": "power_disabled",
+        "title": {
+          "en": "Power was disabled"
+        }
+      },
+      {
+        "id": "power_enabled",
+        "title": {
+          "en": "Power was enabled"
+        }
+      },
+      {
+        "id": "target_temperature_changed",
+        "title": {
+          "en": "Target temperature changed"
+        },
+        "tokens": [
+          {
+            "name": "temperature",
+            "type": "number",
+            "title": {
+              "en": "Target temperature (°C)"
+            },
+            "example": 38
+          }
+        ]
+      }
+    ]
+  },
   "drivers": [
     {
       "images": {
