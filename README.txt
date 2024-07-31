@@ -1,5 +1,12 @@
 Adds support of Intex Spa throught MQTT protocol.
 
+Current features:
+- Get water temperature
+- Set target water temperature
+- Control heater, blow
+
+
+Prerequisites:
 This application depends on Menno van Grinsven MQTT Client (https://homey.app/fr-fr/app/nl.scanno.mqtt/MQTT-Client) to communicate with a MQTT broker. You have to install and configure this application first (and configure a MQTT broker somewhere).
 
 The underlying communication between the MQTT broker and the SPA is done by a DIY object only. The details are found on the Github's jnsbyr/esp8266-intexsbh20 repository (https://github.com/jnsbyr/esp8266-intexsbh20).
