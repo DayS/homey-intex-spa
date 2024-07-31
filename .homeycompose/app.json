@@ -8,12 +8,12 @@
     "local"
   ],
   "name": {
-    "en": "Intex Spa MQTT",
-    "fr": " Spa Intex MQTT"
+    "en": "Intex Spa",
+    "fr": " Spa Intex"
   },
   "description": {
-    "en": "Adds support for Intex Spa throught MQTT protocol",
-    "fr": "Ajoute le support des Spas Intex via le protocole MQTT"
+    "en": "Stay connected to your Intex Spa",
+    "fr": "Restez connecté à vootre Spa Intex"
   },
   "category": [
     "appliances"
