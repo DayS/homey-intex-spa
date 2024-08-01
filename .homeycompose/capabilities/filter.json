@@ -6,6 +6,15 @@
     },
     "getable": true,
     "setable": true,
+    "insights": true,
+    "insightsTitleTrue": {
+        "en": "Filter enabled",
+        "fr": "Filtration activée"
+    },
+    "insightsTitleFalse": {
+        "en": "Filter disabled",
+        "fr": "Filtration désactivée"
+    },
     "uiComponent": "button",
     "uiQuickAction": false,
     "icon": "assets/icons/capabilities/filter.svg"
