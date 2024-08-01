@@ -1,0 +1,12 @@
+{
+    "type": "boolean",
+    "title": {
+        "en": "Filter",
+        "fr": "Filtration"
+    },
+    "getable": true,
+    "setable": true,
+    "uiComponent": "button",
+    "uiQuickAction": false,
+    "icon": "assets/icons/capabilities/filter.svg"
+}

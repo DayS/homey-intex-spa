@@ -1,0 +1,12 @@
+{
+    "type": "boolean",
+    "title": {
+        "en": "Heater",
+        "fr": "Chauffage"
+    },
+    "getable": true,
+    "setable": true,
+    "uiComponent": "button",
+    "uiQuickAction": false,
+    "icon": "assets/icons/capabilities/heater.svg"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "filter_action",
+    "title": {
+        "en": "Change filter state",
+        "fr": "Changer l'état de la filtration"
+    },
+    "titleFormatted": {
+        "en": "Change filter state to [[state]]",
+        "fr": "Changer l'état de la filtration en [[state]]"
+    },
+    "args": [
+        {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+        },
+        {
+            "name": "state",
+            "type": "dropdown",
+            "values": [
+                {
+                    "id": "on",
+                    "label": {
+                        "en": "On",
+                        "fr": "Allumé"
+                    }
+                },
+                {
+                    "id": "off",
+                    "label": {
+                        "en": "Off",
+                        "fr": "Éteint"
+                    }
+                },
+                {
+                    "id": "toggle",
+                    "label": {
+                        "en": "Toggle",
+                        "fr": "Inverser"
+                    }
+                }
+            ]
+        }
+    ]
+}

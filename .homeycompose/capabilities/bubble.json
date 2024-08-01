@@ -1,0 +1,12 @@
+{
+    "type": "boolean",
+    "title": {
+        "en": "Bubble",
+        "fr": "Bulles"
+    },
+    "getable": true,
+    "setable": true,
+    "uiComponent": "button",
+    "uiQuickAction": false,
+    "icon": "assets/icons/capabilities/bubble.svg"
+}

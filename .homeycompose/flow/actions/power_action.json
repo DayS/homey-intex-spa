@@ -1,0 +1,45 @@
+{
+    "id": "power_action",
+    "title": {
+        "en": "Change power state",
+        "fr": "Changer l'état de l'alimentation"
+    },
+    "titleFormatted": {
+        "en": "Change power state to [[state]]",
+        "fr": "Changer l'état de l'alimentation en [[state]]"
+    },
+    "args": [
+        {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=intex_spa"
+        },
+        {
+            "name": "state",
+            "type": "dropdown",
+            "values": [
+                {
+                    "id": "on",
+                    "label": {
+                        "en": "On",
+                        "fr": "Allumé"
+                    }
+                },
+                {
+                    "id": "off",
+                    "label": {
+                        "en": "Off",
+                        "fr": "Éteint"
+                    }
+                },
+                {
+                    "id": "toggle",
+                    "label": {
+                        "en": "Toggle",
+                        "fr": "Inverser"
+                    }
+                }
+            ]
+        }
+    ]
+}

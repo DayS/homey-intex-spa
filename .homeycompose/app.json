@@ -1,25 +1,48 @@
 {
   "id": "fr.dvilleneuve.intex_spa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": ">=5.0.0",
   "sdk": 3,
+  "brandColor": "#2696A8",
   "platforms": [
     "local"
   ],
   "name": {
-    "en": "Intex Spa MQTT"
+    "en": "Intex Spa",
+    "fr": " Spa Intex"
   },
   "description": {
-    "en": "Adds support for Intex Spa throught MQTT protocol"
+    "en": "Stay connected to your Intex Spa",
+    "fr": "Restez connecté à vootre Spa Intex"
   },
   "category": [
     "appliances"
   ],
-  "permissions": [],
+  "tags": {
+    "en": [
+      "intex",
+      "spa",
+      "hot tub",
+      "mqtt"
+    ],
+    "fr": [
+      "intex",
+      "spa",
+      "jacuzzi",
+      "mqtt"
+    ]
+  },
+  "permissions": [
+    "homey:app:nl.scanno.mqtt"
+  ],
   "images": {
-    "small": "/assets/images/small.png",
-    "large": "/assets/images/large.png",
-    "xlarge": "/assets/images/xlarge.png"
+    "small": "/assets/images/small.jpg",
+    "large": "/assets/images/large.jpg",
+    "xlarge": "/assets/images/xlarge.jpg"
+  },
+  "source": "https://github.com/DayS/homey-intex-spa",
+  "bugs": {
+    "url": "https://github.com/DayS/homey-intex-spa/issues"
   },
   "author": {
     "name": "Damien Villeneuve",
